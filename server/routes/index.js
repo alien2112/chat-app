@@ -8,6 +8,7 @@ const updateUserDetails = require("../controllers/updateUserDetails");
 const searchUser = require("../controllers/searchUser");
 const router = express.Router();
 
+
 //creating userapi
 
 router.post("/register", registerUser);
