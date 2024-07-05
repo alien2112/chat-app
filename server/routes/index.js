@@ -24,5 +24,7 @@ router.get("/logout", logout);
 router.post("/update-user", updateUserDetails);
 //search users
 router.post("/search-user", searchUser)
-
+router.get("/hello",()=>{
+  res.send('express on vercel')
+})
 module.exports = router;
