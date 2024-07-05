@@ -25,6 +25,9 @@ router.post("/update-user", updateUserDetails);
 //search users
 router.post("/search-user", searchUser)
 router.get("/hello",(req,res)=>{
-  res.send('express on vercel')
+         return res.status(200).json({
+            message:"hello from vercel",
+
+        })
 })
 module.exports = router;
