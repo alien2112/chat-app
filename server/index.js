@@ -15,7 +15,7 @@ app.use(cookiesParser());
 const port = process.env.port || 3000;
 
 //api endpoints
-
+app.get('/',(req,res)=>res.send('Express on vercel with server.js!'));
 app.use('/api/v1',router);
 
 
