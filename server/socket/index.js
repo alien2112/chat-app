@@ -81,7 +81,7 @@ io.on("connection", async (socket) => {
 
         io.to(data?.sender).emit('conversation',conversationSender)
         io.to(data?.receiver).emit('conversation',conversationReceiver)
-    })
+    
 
 
     //sidebar
