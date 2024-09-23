@@ -29,11 +29,11 @@ This API powers a live messaging platform using Node.js and sockets, allowing us
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/chat-app-api.git
+   git clone https://github.com/alien2112/chat-app.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd chat-app-api
+   cd chat-app
    ```
 3. **Install dependencies:**
    ```bash
